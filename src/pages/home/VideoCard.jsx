@@ -60,7 +60,7 @@ const VideoCard = () => {
       {loading ? (
         <div className="text-center mt-5">Loading...</div>
       ) : (
-        <section className="grid lg:grid-cols-2 gap-5 mt-20 md:grid-cols-2 sm:grid-cols-2 2xl:grid-cols-4 xs:grid-cols-1  2xl:align-middle 2xl:mx-5  ">
+        <section className="grid lg:grid-cols-3 gap-5 mt-20 md:grid-cols-2 sm:grid-cols-2 2xl:grid-cols-4 xs:grid-cols-1  2xl:align-middle 2xl:mx-5  ">
           {videos?.map(item => {
             return (
               <section
