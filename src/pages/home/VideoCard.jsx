@@ -92,7 +92,7 @@ const VideoCard = () => {
                   />
                   <section className="w-full mb-5">
                     <section className="flex justify-between items-center  ">
-                      <h1 className="  text-sm font-bold w-[250px] overflow-hidden text-ellipsis   ">
+                      <h1 className="  text-sm font-bold overflow-hidden text-ellipsis   ">
                         {" "}
                         {item.title}
                       </h1>
