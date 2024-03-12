@@ -53,7 +53,7 @@ const VideoCard = () => {
 
   return (
     <>
-      <section className="grid lg:grid-cols-3 gap-5 mt-20 md:grid-cols-2 sm:grid-cols-2 2xl:grid-cols-4 xs:grid-cols-1  2xl:align-middle 2xl:mx-20 ">
+      <section className="grid lg:grid-cols-2 gap-5 mt-20 md:grid-cols-2 sm:grid-cols-2 2xl:grid-cols-4 xs:grid-cols-1  2xl:align-middle 2xl:mx-5  ">
         {videos?.map(item => {
           return (
             <section
@@ -84,8 +84,8 @@ const VideoCard = () => {
                   className="rounded-full h-8 w-9"
                 />
                 <section className="w-full mb-5">
-                  <section className="flex justify-between items-center ">
-                    <h1 className="  text-sm font-bold w-[250px]   ">
+                  <section className="flex justify-between items-center  ">
+                    <h1 className="  text-sm font-bold w-[250px] overflow-hidden text-ellipsis   ">
                       {" "}
                       {item.title}
                     </h1>
